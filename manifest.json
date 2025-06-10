@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Clima Actual",
+  "version": "1.0",
+  "description": "Muestra el clima actual de una ciudad o tu ubicación.",
+  "permissions": ["geolocation"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/weather-16.png",
+      "48": "icons/weather-48.png",
+      "128": "icons/weather-128.png"
+    }
+  }
+}
